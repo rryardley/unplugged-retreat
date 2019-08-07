@@ -554,7 +554,7 @@ aside {
     align-items: flex-start;
   }
 
-  /* FAQ Page */
+  /* Tablet Styles - FAQ Page */
 
   .faq .content-wrapper {
     justify-content: space-between;
@@ -572,9 +572,70 @@ aside {
 }
 
 @media only screen and (min-width: 1200px) {
-  /*Desktop styles here*/
+  /* Desktop styles - General */
+
+  .content-wrapper {
+    max-width: 960px;
+  }
+
+  /* Hero */
+
+  .hero-area h1 {
+    width: 60%;
+  }
+
+  /* Aside */
+
+  aside .content-wrapper {
+    justify-content: space-around;
+  }
+
+  aside .content-wrapper .form-description,
+  aside .content-wrapper .form {
+    width: 30%;
+  }
+
+
+  /* Features */
+
+  .features h2 {
+    width: 70%;
+  }
+
+  .features article {
+    flex-basis: 33%;
+  }
+
+
+    /* Reviews */
+
+    .reviews article div {
+      width: 42%;
+    }
+
+    /* Desktop styles - About Page */
+
+    .mission h2,
+    .contact-section .content-wrapper h2 {
+      width: 100%;
+    }
+
+    .contact-section .content-wrapper h2 {
+      margin-bottom: 40px;
+    }
+
+    /* Desktop styles - FAQ Page */
+
+    .faq h2 {
+      width: 100%;
+    }
+
+    .faq-content {
+      flex-basis: 35%;
+    }
 
 }
+
 
 /* ==========================================================================
    Print styles.
