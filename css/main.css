@@ -114,6 +114,8 @@ body {
 ul,
 ol {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 a {
@@ -125,6 +127,7 @@ h2 {
   font-family: 'Poppins', sans-serif;
   font-size: 1.875em;
   font-weight: 500;
+  margin: 0;
 }
 
 h3,
@@ -250,6 +253,14 @@ footer .social-icons p {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #527158;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+footer .social-icons p i {
+  font-size: 1.3125em;
 }
 
 footer .copyright {
@@ -350,9 +361,6 @@ input[type=button] {
   margin-bottom: 40px;
 }
 
-.features-item-description {
-
-}
 
 /* Reviews */
 
@@ -384,10 +392,6 @@ input[type=button] {
   background-color: #527158;
 }
 
-.mission-content {
-
-}
-
 .map figure {
   width: 100%;
   height: 0;
@@ -410,10 +414,6 @@ input[type=button] {
   align-items: center;
   flex-flow: row wrap;
   background-color: #2a423a;
-}
-
-.contact-content {
-
 }
 
 .contact-content p {
@@ -554,6 +554,11 @@ input[type=button] {
     line-height: 1.333;
   }
 
+  h3 {
+    font-size: 1.5em;
+    line-height: 1.25;
+  }
+
   /* Header */
 
   header {
@@ -622,6 +627,10 @@ input[type=button] {
     width: 50%;
   }
 
+  .features i {
+    margin-bottom: 30px;
+  }
+
   /* Reviews */
 
   .reviews article {
@@ -668,6 +677,11 @@ input[type=button] {
 
   footer p {
     line-height: 1.285;
+  }
+
+  footer .social-icons {
+    width: 12.5em;
+    justify-content: space-between;
   }
 
   footer .copyright {
